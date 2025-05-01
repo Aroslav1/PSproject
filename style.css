@@ -51,3 +51,41 @@ footer {
     color: #333;
     margin-top: 40px;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #2a5d8f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.hardware-img {
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    margin: 15px auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+}
